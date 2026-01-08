@@ -72,7 +72,7 @@
 .second-head h2{
     font-size: 40px;
     font-weight: bold;
-    font-size: 90px;
+    font-size: 100px;
 }
 .second-head p{
     margin-top: 16px;
@@ -269,6 +269,44 @@
 }
 .end-bottom p{
     margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+#start-footer{
+    margin-top: 120px;
+    background-color: #001931;
+    height: 348px;
+    width: 100%;
+    position: absolute;
+}
+.first-footer{
+    margin: auto;
+    width: 1000px;
+    margin-top: 120px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+.s-link p{
+    color: #fafafa;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.s-link .mm{
+    background-color: #d6d9dc;
+    gap: 10px;
+}
+.footer-end{
+    text-align: center;
+    color: #fafafa;
     font-size: 16px;
     line-height: 20px;
 }
