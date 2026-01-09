@@ -21,6 +21,16 @@
     font-size: 16px;
     font-weight: 500px;
     color: #000000;
+    cursor: pointer;
+}
+
+/* mouse hover */
+
+.head .list .menu li:hover{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 25px;
+     box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
 }
 .head .botom .btn{
     background-color: #469165;
