@@ -177,6 +177,7 @@
     box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
     height: 280px;
     width: 280px;
+    cursor: pointer;
 }
 /* card hover */
 
@@ -187,6 +188,7 @@
     color: #01080e;
     box-shadow: 5px -5px 5px , -5px 5px rgb(136, 132, 132);
     transition:  background-color 1s ease;
+    cursor: pointer;
 }
 .card img{
     background-color: #F95555;
@@ -357,4 +359,8 @@
     font-size: 16px;
     line-height: 20px;
     
+}
+.img-div{
+    display: flex;
+    gap: 20px;
 }
