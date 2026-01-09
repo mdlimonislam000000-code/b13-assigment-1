@@ -22,7 +22,7 @@
     font-weight: 500px;
     color: #000000;
 }
-.head .botam .btn{
+.head .botom .btn{
     background-color: #469165;
     height: 44px;
     width: 164px;
@@ -32,9 +32,11 @@
     font-size: 16px;
     cursor: pointer;
 }
-.head .botam .btn:hover{
+.head .botom .btn:hover{
     background-color: rgb(16, 99, 48);
     font-size: 18px ;
+    transition:  background-color 1s ease;
+    box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
 }
 
 /* second head start */
@@ -89,6 +91,8 @@
     font-size: 18px;
     font-weight: 500px;
     color: #FFFFFF;
+    transition:  background-color 1s ease;
+
 }
 
 
@@ -110,10 +114,15 @@
     display:flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
+/* nav ber button hover*/
+
 .second-bottom .forth-bottom:hover{
     background-color: #047a35;
     color: #f8f8f8;
+    box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
+    transition:  background-color 1s ease;
 }
 .second-bottom .third-bottom{
     border: 2px solid white;
@@ -124,10 +133,16 @@
     align-items: center;
     padding: 10px 10px;
     gap: 5px;
+    cursor: pointer;
 }
+/* bottom hover */
+
 .second-bottom .third-bottom:hover{
+    box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
     background-color: #047a35;
     color: #e8edea;
+    transition:  background-color 1s ease;
+    cursor: pointer;
 }
 
 
@@ -166,10 +181,12 @@
 /* card hover */
 
 .card:hover{
-    background-color: rgb(217, 249, 237);
+    background-color: rgb(175, 232, 211);
     font-size: 1.5em;
     border-radius:20px ;
     color: #01080e;
+    box-shadow: 5px -5px 5px , -5px 5px rgb(136, 132, 132);
+    transition:  background-color 1s ease;
 }
 .card img{
     background-color: #F95555;
@@ -286,6 +303,16 @@
    font-weight: 600px;
    border-radius: 15px;
    border: none;
+   cursor: pointer;
+   gap: 10px;
+}
+
+/* bottom hover */
+
+.end-bottom .bt:hover{
+    background-color: #047a35;
+    transition:  background-color 1s ease;
+    font-size: 18px;
 }
 .end-bottom p{
     margin-top: 16px;
